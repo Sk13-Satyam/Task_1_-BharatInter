@@ -1,0 +1,226 @@
+header {
+    position: sticky;
+    top: 0;
+  }
+
+  html {
+
+    scroll-behavior: smooth;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: rgb(0, 0, 0);
+    background-blend-mode: color-burn;
+
+    color: white;
+    font-family: "Tilt Neon", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    background-color: #f57f17;
+
+  }
+
+  nav ul {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  nav ul li {
+    list-style: none;
+
+    margin: 0 38px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    letter-spacing: 2px;
+  }
+
+  nav ul li a:hover {
+    color: rgba(220, 234, 247, 0.662);
+  }
+
+  .left {
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+
+  .firstSection {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .leftSection {
+    text-align: left;
+    margin: 137px;
+    width: 30%;
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
+  }
+
+  .rightSection {
+
+    height: auto;
+    width: 45%;
+    border-radius: 61px;
+    margin: 56px;
+    box-shadow: -10px -2px 20px 7px #646462;
+    margin-top: 92px;
+  }
+
+
+  .rightSection img {
+    width: 72%;
+    border-radius: 61px;
+    margin: 44px;
+    margin-top: 92px;
+    border: 5px ridge black;
+  }
+
+  .art {
+    color: pink;
+  }
+
+  #element {
+    color: rgb(151, 249, 131);
+    font-size: 2.1rem;
+  }
+
+  .logo {
+    display: block;
+    width: 42px;
+    margin: auto;
+    margin-bottom: 17px;
+  }
+
+
+  .image {
+    width: 97vw;
+    opacity: 0.8;
+    height: 358px;
+    border-radius: 204px;
+  }
+
+  #para {
+    margin: 86px 66px;
+    color: white;
+    font-size: 2.3rem;
+    font-size: 2.3rem;
+    text-shadow: 3px 4px 20px #FFEE58
+  }
+
+  #line {
+    border: 0;
+    background-color: #fff9c4;
+    width: 67vw;
+    margin: auto;
+    height: 2px;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .info {
+    height: 65px;
+    width: 1px;
+    margin: 6px;
+    background-color: white;
+  }
+
+  .Info {
+    margin: 72px -22px;
+    width: 55px;
+    height: auto;
+    letter-spacing: 2px;
+    text-align: left;
+  }
+
+  .set {
+    position: relative;
+    margin: 278px 63px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 105px;
+    border-radius: 10px;
+  }
+
+  .btn {
+    color: white;
+    background-color: #b8b8b8;
+    border: 2px outset blanchedalmond;
+    padding: 4px 45px;
+    border-radius: 9px;
+    background: none;
+    font-family: cursive;
+    cursor: pointer;
+    box-shadow: 3px 3px #b89f9f;
+  }
+
+  .btn:hover {
+    background-color: #faebd740;
+
+  }
+
+  .contact {
+    font-size: 38px;
+    text-shadow: 3px 4px rgb(159, 134, 183)
+  }
+
+  .resume {
+    position: relative;
+    top: 18px;
+  }
+
+  .last {
+
+    text-align: center;
+    background-color: #00ffff59;
+    letter-spacing: 3px;
+    height: 46px;
+
+  }
+
+  #portfolio {
+    filter: drop-shadow(2px 4px 6px black);
+    width: 107px;
+    display: inline-block;
+    margin: -10px 15px;
+    border-radius: 39px;
+    cursor: pointer;
+
+  }
+
+  #man {
+    width: 60px;
+    border: 3px inset black;
+    border-radius: 31px;
+    margin: -19px 7px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+  }

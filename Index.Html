@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet" />
+    <title>Satyam's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left" id="home">
+          <img src="/ImagesUsed/Man.jpg" alt="" id="man">
+          Satyam's<img src="/ImagesUsed/portfolio logo.png" alt="" id="portfolio">
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi there
+        <div>my name is <span class="art">Satyam</span></div>
+
+        <div>and I am a :</div>
+        <span id="element"></span>
+        <div class="resume">
+          <button class="btn">Download Resume</button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="ImagesUsed/portfolio image.jpg" alt="image" />
+      </div>
+    </section>
+
+    <!-- <div><img class="image" src="line.jpg" alt="" /></div> -->
+    <section class="secondSection">
+      <p id="para" item class="about"> - My accomplishments:</p>
+      <div id="line"></div>
+      <div id="box">
+        <div class="info">
+          <div class="Info">I have achieved 95.8% in CBSE class 10th</div>
+        </div>
+
+        <div class="info">
+          <div class="Info">I have qualified for JEE Advanced 2022</div>
+        </div>
+
+        <div class="info">
+          <div class="Info">
+            I'm currenetly pursuing my B.tech-CSE degree from a government college
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="set">
+      <div class="contact" id="contactMe"> - Contact Me:</div>
+      <div class="footer">
+        <div class="firstfooter">
+          <div><img src="/ImagesUsed/linkedin_network_linkedin logo_icon.png" alt="" class="logo"></div>
+          <button class="btn"><a href="https://www.linkedin.com/in/satyamkesharwani13" target="_blank"
+              class="link">LinkedIn</a></button>
+        </div>
+        <div class="secondfooter">
+          <div><img src="/ImagesUsed/github_icon.png" alt="" class="logo" style="filter: invert();"></div>
+
+          <button class="btn"><a href="https://github.com/Sk13-Satyam" target="_blank" rel="noopener noreferrer"
+              class="link">GitHub</a></button>
+        </div>
+
+        <div class="thirdfooter">
+          <div><img src="ImagesUsed/telegram.jpg" alt="" class="logo">
+          </div><button class="btn"><a href="https://t.me/satyam0713" target="_blank" rel="noopener noreferrer"
+              class="link">Telegram</a></button>
+        </div>
+      </div>
+    </footer>
+    <footer class="last">
+      <div>www.satyam'sportfolio.com | Copyright &#169</div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Learner", "Web Developer", "Writer", " College Student", "Coder", "Inter@BharatIntern"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+
+</html>
